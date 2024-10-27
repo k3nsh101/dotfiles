@@ -102,7 +102,8 @@ input "type:touchpad" {
     floating_modifier $mod normal
     
     bindsym Mod1+Shift+l exec swaylock -s fill -i ~/Pictures/Wallpapers/kevin-laminto-7PqRZK6rbaE-unsplash.jpg
-    bindsym Shift+Print exec grim screenshot.png
+    # bindsym Shift+Print exec grim screenshot.png
+    bindsym Shift+Print exec flameshot gui -p ~/Pictures/Screenshots
 
     # Reload the configuration file
     bindsym $mod+Shift+c reload
