@@ -4,7 +4,7 @@ require "nvchad.options"
 
 local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
-o.expandtab = true
+o.expandtab = false
 o.shiftwidth = 4
 o.smartindent = true
 o.tabstop = 4
